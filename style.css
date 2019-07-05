@@ -1,0 +1,178 @@
+body{
+	font-family: 'Atma', cursive;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+	color: #eee;
+	text-align: justify;
+	font-size: 10px;
+	background-color: black;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+input {
+	text-align: center;
+	width: 400px;
+	color: rgb(44, 63, 116);
+	font-size: 24px;
+	padding: 15px;
+	border: none;
+	box-shadow: inset 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+button {
+	padding: 12px 30px;
+	margin-left: 30px;
+	font-size: 14px;
+	color: #eee;
+	background-color: rgb(44, 63, 116);
+	font-weight: 700;
+	border: none;
+	text-transform: uppercase;
+}
+
+.background {
+	width: 100%;
+	margin-top: 0px;
+	background-image: linear-gradient(160deg, #74e2e8, #007991, #222E50);
+}
+
+.header {
+	padding-top: 80px;
+	width: 100%;
+	text-align: center;
+}
+
+.header b{
+	font-weight: 400;
+}
+
+.header h1 {
+	font-size: 50px;
+	margin-bottom: 0px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.header h2 {
+	font-size: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+
+.header h3 {
+	font-size: 24px;
+	margin-top: 30px;
+	font-weight: 300;
+	color: rgb(21, 82, 122);
+}
+
+.badge {
+	width: 33%;
+	float: left;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 150px;
+}
+
+.badge h1 {
+	font-size: 100px;
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+
+.badge h2 {
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+
+.badge h3 {
+	font-size: 24px;
+	font-weight: 300;
+	margin-top: 20px;
+}
+
+.big-badge {
+	text-align: left;
+	width: 100%;
+}
+
+.big-badge div {
+	margin: auto;
+	width: 50%;
+}
+
+.big-badge h2 {
+	text-align: center;
+}
+
+.big-badge h3 {
+	text-align: justify;
+}
+
+.badgeClear {
+	clear: both;
+}
+
+.contactForm {
+	width: 100%;
+	background-color: #eee;
+	color: rgb(44, 63, 116);
+	font-size: 18px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.contactForm form {
+	font-weight: 300;
+	width: 100%;
+	text-align: center;
+}
+
+.contactForm h1 {
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+.contactForm h2 {
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.contactForm input::placeholder {
+	color: #ccc;
+	font-size: 16px;
+}
+
+footer {
+	background-color: rgb(18, 27, 53);
+	height: 300px;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+	.photoContent .info {
+		margin-left: 14px;
+		margin-top: 20px;
+		clear:both;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.photoContent {
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-top: 20px;
+	}
+
+	.photoContent img {
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 0px;
+		clear: both;
+	}
+}
